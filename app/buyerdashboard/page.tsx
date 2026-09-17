@@ -60,12 +60,6 @@ interface PaginationData {
   hasPrev: boolean;
 }
 
-interface Country {
-  name: string;
-  code: string;
-  flag: string;
-}
-
 const TABS = ['For Sale', 'For Rent', 'Commercial'] as const;
 type Tab = (typeof TABS)[number];
 

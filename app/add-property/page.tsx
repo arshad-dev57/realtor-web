@@ -615,7 +615,7 @@ export default function AddPropertyPage() {
   const handleCountrySelect = (country: Country) => {
     updateField('country', country.name);
     updateField('countryCode', country.code);
-    updateField('countryFlag', country.flag);
+    updateField('countryFlag', country.flagUrl);
     updateField('city', ''); // Reset city when country changes
   };
   
